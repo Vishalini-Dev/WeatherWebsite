@@ -64,22 +64,22 @@
                 document.querySelector(".wind").innerHTML = data.wind.speed+" km/h";
 
                 if(data.weather[0].main =="Clear"){
-                    weatherpic.src ="./clear.png";
+                    weatherpic.src ="clear.png";
                 }
                 else if (data.weather[0].main == "Clouds"){
-                    weatherpic.src ="./clouds.png";
+                    weatherpic.src ="clouds.png";
                 }
                 else if (data.weather[0].main == "Drizzle"){
-                    weatherpic.src ="./drizzle.png";
+                    weatherpic.src ="drizzle.png";
                 }
                 else if (data.weather[0].main == "Rain"){
-                    weatherpic.src ="./rain.png";
+                    weatherpic.src ="rain.png";
                 }
                 else if (data.weather[0].main == "Mist"){
-                    weatherpic.src ="./mist.png";
+                    weatherpic.src ="mist.png";
                 }
                 else if (data.weather[0].main == "Snow"){
-                    weatherpic.src ="./snow.png";
+                    weatherpic.src ="snow.png";
                 }
                 document.querySelector(".error").style.display ="none";
                 document.querySelector(".weather").style.display="block";
